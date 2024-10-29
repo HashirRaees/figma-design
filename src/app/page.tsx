@@ -1,7 +1,7 @@
 import Image from "next/image"
-import Second from "@/components/Second"
-import Third from "@/components/Third"
-import Footer from "@/components/Footer"
+import Second from "../components/Second"
+import Third from "../components/Third"
+import Footer from "../components/Footer"
 
 export default function Home(){
   return(

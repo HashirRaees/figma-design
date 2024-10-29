@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    right: 0px;
+}
+.content{
+    width: 100%;
+}
+body{
+    background-color:#ffeeee;
+
+}
+/* Nav bar*/
+.nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height:100px;
+}
+.nav-links li:hover{
+    cursor: pointer;
+    text-decoration: underline black;
+}
+.nav-links{
+    display: flex;
+    list-style-type:none;
+    gap:50px;
+    margin-right:60px;
+    font-family:verdana;
+    font-size:20px;
+}
+
+/* Hero Section*/
+.top{ 
+ /*background-color:#CFA6A6;*/
+    display: flex;
+    margin-top:50px;
+    width: 100%;
+    height: 400px;
+    justify-content: space-evenly;
+    overflow:hidden;
+}
+.left-text{
+    width:38%;
+    height:300px;
+    justify-content: space-around;
+    align-items: center;
+    cursor:default;
+}
+.left-text h1{
+    font-family:arial;
+    font-weight:800;
+    justify-content:center;
+    font-size: 35px;
+}
+.left-text p{
+    font-family:verdana;
+    font-size:16px;
+    justify-content:center;
+    display: flex;
+    line-height: 25px;
+}
+.btn{
+    margin-top:30px;
+    height:45px;
+    width:38%;
+    color:white;
+    background-color:rgb(252, 134, 154);
+    border:none;
+    box-shadow:0px 2px 3px 0px gray;
+    cursor:pointer;
+}
+.top Image{
+    display: flex;
+}
+
+/* Second Section*/
+.second{
+    background-color:#fae1e1;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    overflow:hidden;
+}
+/*.second h2{
+    font-family:verdana;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-color: aqua;
+    align-self: self-start;
+    display: flex; 
+}*/
+.second .recent-post{
+    width: 483px;
+    height: 356px;
+    margin-top:100px;
+    background-color: white;
+    align-items:center;
+}
+.second .recent-post2{
+    width: 483px;
+    height: 356px;
+    margin-top:100px;
+    background-color: white;
+    align-items:center;
+}
+.recent-post h2{
+    font-family:arial;
+    font-weight:800;
+    justify-content:center;
+    padding:30px;
+}
+.recent-post span{
+    font-family:arial;
+    padding-left:30px;
+    color:rgb(78, 78, 78);
+}
+.recent-post p{
+    font-family:arial;
+    padding:30px;
+    word-spacing:3px;
+    letter-spacing:1px;
+}
+
+/* Third Section*/
+/* 
+.view{
+    color:rgb(240, 98, 122);
+    font-size: 15px;
+} */
+.third{
+    width: 100%;
+    overflow:hidden;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.third-h2{
+    font-family:arial;
+    font-size:20px;
+    height:20px;
+    padding: 40px;
+    margin-left: 180px;
+}
+.dashboard{
+    height:300px;
+    width:1200px;
+    display:flex; 
+    margin: auto;
+    justify-content: center;
+}
+.dashboard1{
+    height:300px;
+    width:50%;
+}
+.dashboard1 h2{
+    font-family:arial;
+    font-size:30px;
+    padding:10px 0px 0px 50px;
+}
+.dashboard1 h3{
+    color:white;
+    border:1px transparent;
+    border-radius:20px;
+    background-color:rgb(252, 134, 154);
+    font-family:arial;
+    font-size:15px;
+    width:60px;
+    text-align:center;
+    margin:20px 0px 0px 50px;
+    padding:3px;
+}
+.dashboard1 p{
+    font-family:arial;
+    font-size:15px;
+    padding:20px;
+    margin-left:30px;
+}
+.dashboard2{
+    height:300px;
+    width:1200px;
+    display: flex;
+    margin: auto;
+    margin-top:20px;
+    justify-content: center;
+}
+.dashboard4{
+    height:300px;
+    width:50%;
+}
+.dashboard4 h2{
+    font-family:arial;
+    font-size:30px;
+    padding:10px 0px 0px 50px;
+}
+.dashboard4 h3{
+    color:white;
+    border:1px transparent;
+    border-radius:20px;
+    background-color:rgb(252, 134, 154);
+    font-family:arial;
+    font-size:15px;
+    width:60px;
+    text-align:center;
+    margin:20px 0px 0px 50px;
+    padding:3px;
+}
+.dashboard4 p{
+    font-family:arial;
+    font-size:15px;
+    padding:20px;
+    margin-left:30px;
+}
+/*Footer*/
+.footer{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    margin:auto;
+    margin-top: 70px;
+    justify-items: center;
+    overflow:hidden;
+    padding:80px 0px 0px 0px;
+}
+.footer h2{
+    font-family:arial;
+    font-size:20px;
+    padding:10px 0px 0px 0px;
+}
+
+
+
